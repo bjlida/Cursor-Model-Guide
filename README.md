@@ -12,7 +12,7 @@
 ## ✨ 特性
 
 ### 🎯 核心功能
-- **📊 模型展示**: 37+ AI 模型完整信息展示
+- **📊 模型展示**: 34 个 AI 模型完整信息展示
 - **🔍 智能筛选**: 按提供商、权限级别筛选模型
 - **📱 详情查看**: 点击卡片查看模型详细介绍
 - **⚖️ 模型对比**: 支持多模型对比功能
@@ -33,35 +33,53 @@
 
 ## 📦 支持的模型提供商
 
-### 🅰️ Anthropic
-- Claude 4.5 系列
-- Claude 4 系列 (含 1M 上下文版本)
-- Claude 3.5 系列
+### 🅰️ Anthropic (7个模型)
+- **Claude 4.5 Sonnet** ⭐ 推荐
+- **Claude 4 Sonnet**
+- **Claude 3.5 Sonnet**
+- **Claude 3.5 Haiku**
+- **Claude 4 Sonnet 1M** (100万上下文)
+- **Claude 4 Opus**
+- **Claude 4.1 Opus**
 
-### 🤖 OpenAI
-- GPT-5 系列 (含 Fast, High, Medium, Low, Mini 等变体)
-- GPT-4 系列 (GPT-4o, GPT-4.1)
-- O系列推理模型 (O3 Pro, O3, O4 Mini)
+### 🤖 OpenAI (12个模型)
+- **GPT-5** ⭐ 推荐
+- **GPT-5 Fast** ⭐ 推荐
+- **GPT-5 Medium**
+- **GPT-5 Medium Fast**
+- **GPT-5 High**
+- **GPT-5 High Fast**
+- **GPT-5 Codex**
+- **GPT-5 Mini**
+- **GPT-5 Low**
+- **GPT-5 Low Fast**
+- **GPT-4.1**
+- **GPT-4o** (多模态)
+- **O3 Pro** ⭐ 推荐 (推理模型)
+- **O3** (推理模型)
+- **O4 Mini** (推理模型)
 
-### 🔍 Google
-- Gemini 2.5 Pro
-- Gemini 2.5 Flash
-- Gemini 2.0 Flash (100万 token 上下文)
+### 🔍 Google (2个模型)
+- **Gemini 2.5 Pro** ⭐ 推荐 (多模态)
+- **Gemini 2.5 Flash** (多模态)
 
-### 🌊 DeepSeek
-- DeepSeek V3.1
-- DeepSeek R1
+### 🌊 DeepSeek (2个模型)
+- **DeepSeek V3.1** ⭐ 推荐
+- **DeepSeek R1**
 
-### ❌ xAI (Grok)
-- Grok 4 系列 (含 Fast Reasoning 和 Non-Reasoning 版本)
-- Grok 3 系列
-- Grok Code Fast 1
+### ❌ xAI (Grok) (5个模型)
+- **Grok 4 Fast Reasoning** ⭐ 推荐
+- **Grok 4 Fast Non-Reasoning**
+- **Grok 4**
+- **Grok 3**
+- **Grok 3 Mini**
+- **Grok Code Fast 1**
 
-### 🌙 Moonshot
-- Kimi K2 Instruct
+### 🌙 Moonshot (1个模型)
+- **Kimi K2 Instruct** ⭐ 推荐
 
-### ⭐ 其他
-- Code Supernova 1 Million
+### ⭐ 其他 (1个模型)
+- **Code Supernova 1 Million**
 
 ## 🚀 快速开始
 
@@ -181,11 +199,13 @@ Cursor-Model-Guide/
 ## 🔄 最新更新
 
 ### 2025年10月更新
-- ✅ 添加 37+ AI 模型支持
+- ✅ 添加 34 个 AI 模型支持
 - ✅ 新增模型详情弹窗
 - ✅ 优化筛选交互体验
 - ✅ 添加性能评分和详细指标
 - ✅ 更新最新模型信息文档
+- ✅ 支持推荐模型筛选
+- ✅ 增强模型对比功能
 
 详见 [MODELS_UPDATE.md](./MODELS_UPDATE.md) 查看各厂商最新模型详情。
 
