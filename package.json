@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "preview": "serve out",
-    "clean": "rm -rf .next out"
+    "clean": "rm -rf .next out",
+    "deploy:manual": "npm run build && gh-pages -d out"
   },
   "repository": {
     "type": "git",
