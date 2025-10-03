@@ -2,6 +2,11 @@
 
 ## 🎯 推荐方式：GitHub Actions 自动部署
 
+### ⚠️ 重要：CSS 加载配置
+
+项目已配置 `basePath: '/Cursor-Model-Guide'` 以确保 CSS 正确加载。
+如果 CSS 不加载，请查看 `CSS_LOADING_FIX.md` 文档。
+
 ### 一次性设置（只需做一次）
 
 1. **推送代码到 GitHub**

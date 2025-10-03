@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    // 可选：如果要部署到子路径，取消下面的注释并设置路径
-    // basePath: '/your-subdirectory',
+
+    // GitHub Pages 部署到子路径需要配置 basePath
+    basePath: '/Cursor-Model-Guide',
 
     // 禁用图像优化（静态导出不支持）
     images: {
